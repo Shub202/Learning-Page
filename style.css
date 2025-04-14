@@ -1,0 +1,92 @@
+/* Reset and background */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url(https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 60px 20px;
+    min-height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #ddd;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #ffd54f;
+    margin-bottom: 12px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f0f0f0;
+  }
+  
+  a {
+    color: #ffeb3b;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Only Learning Vibes Image Transparent */
+.learning-img-transparent {
+    opacity: 100%;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #ffeb3b;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  
+  button:hover {
+    background-color: #fff176;
+    transform: scale(1.05);
+  }
+  
